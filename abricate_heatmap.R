@@ -51,7 +51,7 @@ p <- tidy_df %>%
   labs(x = "",
        y = "",
        fill = "") +
-  guides(color = F) +
+  guides(color = "none") +
   theme_bw(10) +
   rotate_x_text(45)
 # scale width by number of hits
